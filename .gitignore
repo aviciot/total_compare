@@ -238,3 +238,24 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+/Scripts/activate
+/Scripts/activate.bat
+/Scripts/activate.fish
+/Scripts/activate.nu
+/Scripts/activate.ps1
+/Scripts/activate_this.py
+/Scripts/deactivate.bat
+/Scripts/deactivate.nu
+/main.py
+/Scripts/pip.exe
+/Scripts/pip3.10.exe
+/Scripts/pip3.exe
+/Scripts/pip-3.10.exe
+/Scripts/pydoc.bat
+/Scripts/python.exe
+/Scripts/pythonw.exe
+/pyvenv.cfg
+/Scripts/wheel.exe
+/Scripts/wheel3.10.exe
+/Scripts/wheel3.exe
+/Scripts/wheel-3.10.exe
