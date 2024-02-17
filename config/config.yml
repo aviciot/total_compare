@@ -1,0 +1,29 @@
+excel_settings:
+  file_path: "run12.xlsx"
+  sheets:
+    count: "counts"
+    checks: "checks"
+    connections: "connections"
+databases:
+  sqlite:
+    file_path: path/to/your/database.db
+    table_name: your_table_name
+    username: your_username
+    password: your_password
+  postgresql:
+    host: your_postgres_host
+    port: your_postgres_port
+    database: your_postgres_database
+    user: your_postgres_user
+    password: your_postgres_password
+  oracle:
+    host: your_oracle_host
+    port: your_oracle_port
+    service_name: your_oracle_service_name
+    username: your_oracle_user
+    password: your_oracle_password
+data_sources:
+  csv:
+    source1: path/to/source1.csv
+    source2: path/to/source2.csv
+  json: path/to/your/json/source.json
