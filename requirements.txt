@@ -1,0 +1,11 @@
+# Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)]
+et-xmlfile==1.1.0
+numpy==1.26.4
+openpyxl==3.1.2
+pandas==2.2.0
+python-dateutil==2.8.2
+pytz==2024.1
+PyYAML==6.0.1
+six==1.16.0
+tzdata==2024.1
+
