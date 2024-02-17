@@ -246,7 +246,6 @@ fabric.properties
 /Scripts/activate_this.py
 /Scripts/deactivate.bat
 /Scripts/deactivate.nu
-/main.py
 /Scripts/pip.exe
 /Scripts/pip3.10.exe
 /Scripts/pip3.exe
