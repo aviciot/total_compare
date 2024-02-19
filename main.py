@@ -10,5 +10,5 @@ if __name__ == "__main__":
     # Accessing settings variables
     file_path = settings('excel_settings.file_path')
     print("Path",file_path)
-    curr = ExcelLoader(file_path=file_path)
-    print("Excel file path:", curr.display_sheets())
+    # curr = ExcelLoader(file_path=file_path)
+    # print("Excel file path:", curr.display_sheets())

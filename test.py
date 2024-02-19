@@ -1,23 +1,17 @@
-import pandas as pd
 
-class ExcelLoader:
-    def __init__(self, file_path):
-        self.file_path = file_path
-        self.excel_dataframes = self._load_excel_sheets()
+import openai
 
-    def _load_excel_sheets(self):
-        # Read all sheets into a dictionary of dataframes
-        return pd.read_excel(self.file_path, sheet_name=None)
+api_key = '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'
 
-    def display_sheets(self):
-        # Access each dataframe by sheet name dynamically
-        for sheet_name, df in self.excel_dataframes.items():
-            print(f"Sheet Name: {sheet_name}")
-            print(df)
-            print("-" * 40)
+from openai import OpenAI
+import os
 
-if __name__ == "__main__":
-    # Example usage
-    excel_file_path = "run12.xlsx"
-    excel_loader = ExcelLoader(excel_file_path)
-    excel_loader.display_sheets()
+client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", api_key))
+
+
+assistant = client.beta.assistants.create(
+    name="Math Tutor",
+    instructions="You are a personal math tutor. Answer questions briefly, in a sentence or less.",
+    model="gpt-4-1106-preview",
+)
+show_json(assistant)
